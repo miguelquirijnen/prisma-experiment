@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "prisma generate",
-    "dev": "PORT=3000 node src/index.js",
-    "start": "node src/index.js"
+    "dev": "PORT=3000 node src/index.ts",
+    "start": "node src/index.ts"
   },
   "dependencies": {
     "@prisma/client": "3.13.0",
